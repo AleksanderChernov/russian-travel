@@ -19,20 +19,9 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .cover .section-title {
-    font-size: 72px;
-    line-height: 76px;
-  }
-}
-
 @media only screen and (max-width: 320px) {
   .section-title {
     margin: 0 16px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-  .cover .section-title {
     font-size: 32px;
     line-height: 35px;
   }
@@ -41,11 +30,6 @@
 @media only screen and (max-width: 500px) {
   .section-title {
     margin: 0 16px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .cover .section-title {
     font-size: 32px;
     line-height: 35px;
   }

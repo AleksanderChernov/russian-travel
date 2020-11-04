@@ -13,6 +13,7 @@
   justify-content: center;
   text-align: center;
   text-decoration: none;
+
 }
 
 .cover::after {
@@ -34,6 +35,17 @@
   .cover {
     min-height: 480px;
     margin: 90px 0 0 0;
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cover {
+    min-height: 200px;
+    margin: 0 16px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }
 
@@ -41,5 +53,7 @@
   .cover {
     min-height: 200px;
     margin: 55px 0 64px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }
