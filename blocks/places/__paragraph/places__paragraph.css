@@ -1,27 +1,14 @@
 .places__paragraph {
-  font-family: Inter, Helvetica;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 29px;
-  grid-area: 2/2/3/3;
-  display: flex;
-  flex-direction: column;
+  max-width: 484px;
+  margin: 0;
 }
 
-@media only screen and (max-width: 768px) {
-  .places__paragraph {
-    font-size: 16px;
-    line-height: 26px;
-  }
+.places__paragraph:nth-child(2n) {
+  margin: 26px 0 0 0;
 }
-
-/* Макет фигмы разваливается при других условиях */
 
 @media only screen and (max-width: 320px) {
-  .places__paragraph {
-    margin: -19px 16px 0;
-    font-size: 16.5px;
-    line-height: 25.5px;
+  .places__paragraph:nth-child(2n) {
+    margin: 25px 0 0 0;
   }
 }
