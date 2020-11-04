@@ -1,0 +1,9 @@
+.intro__num {
+  padding: 0;
+  list-style: none;
+  font-family: Inter, Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
