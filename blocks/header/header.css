@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  margin: 28px 3.8% 56px 3.8%;
+  max-width: calc(100% - 96px);
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    max-width: calc(100% - 9.4%);
+    margin: 24px 4.7% 48px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    max-width: calc(100% - 48px);
+    margin: 28px 24px 48px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header {
+    max-width: calc(100% - 32px);
+    margin: 16px 16px 48px;
+  }
+}

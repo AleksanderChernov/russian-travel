@@ -1,0 +1,20 @@
+.lead {
+  margin: 0 11.5%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .lead {
+    max-width: 95.1%;
+    margin: 0 4.9%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+    margin: 0;
+  }
+}

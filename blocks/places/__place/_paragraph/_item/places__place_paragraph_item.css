@@ -1,0 +1,14 @@
+.places__place_paragraph_item {
+  max-width: 484px;
+  margin: 0;
+}
+
+.places__place_paragraph_item:nth-child(2n) {
+  margin: 26px 0 0 0;
+}
+
+@media only screen and (max-width: 320px) {
+  .places__place_paragraph_item:nth-child(2n) {
+    margin: 25px 0 0 0;
+  }
+}

@@ -1,0 +1,13 @@
+.places__place_website {
+  grid-area: 1/2/2/3;
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 320px) {
+  .places__place_website {
+    display: none;
+  }
+}

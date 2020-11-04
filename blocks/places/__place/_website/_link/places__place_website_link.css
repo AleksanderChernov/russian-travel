@@ -1,0 +1,15 @@
+.places__place_website_link {
+  margin: 12px 0 0;
+  order: 2;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: white;
+}
+
+.places__place_website_link:hover {
+  cursor: pointer;
+}
