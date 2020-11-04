@@ -1,5 +1,4 @@
 .header__lang-link {
-  padding-left: 18px;
   font-family: Inter, Helvetica;
   font-style: normal;
   font-weight: normal;
@@ -16,7 +15,7 @@
 }
 
 .header__lang-link:nth-child(2n) {
-  margin-left: auto;
+  padding-left: 18px;
 }
 
 @media only screen and (max-width: 320px) {

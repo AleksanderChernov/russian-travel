@@ -1,7 +1,16 @@
 .header {
+  max-width: 1184px;
   display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
   margin: 28px 3.8% 56px 3.8%;
-  max-width: calc(100% - 96px);
+}
+
+@media only screen and (min-width: 1281px) {
+  .header {
+    max-width: calc(100% - 9.4%);
+    margin: 28px auto 56px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
