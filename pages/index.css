@@ -14,16 +14,14 @@
 
 @import url(../blocks/main/main.css);
 
-/* Section-title */
-
-@import url(../blocks/section-title/section-title.css);
-
 /* Header */
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link-box/header__link-box.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active_off.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active_on.css);
 
 /* Lead */
 

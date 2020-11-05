@@ -22,14 +22,6 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
-  .places__place {
-    margin-top: 49px;
-    display: flex;
-    flex-flow: column;
-  }
-}
-
 @media only screen and (max-width: 550px) {
   .places__place {
     margin-top: 49px;

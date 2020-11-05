@@ -2,26 +2,32 @@
   max-width: 100%;
   margin: 92px 48px 24px 48px;
   display: flex;
-  flex-flow: row nowrap;
   justify-content: space-between;
+}
+
+@media only screen and (min-width: 1281px) {
+  .footer {
+    width: 1184px;
+    margin: 88px auto 24px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .footer {
     margin: 88px 24px 24px 24px;
+    flex-flow: row;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 750px) {
   .footer {
+    margin: 88px 24px 24px 24px;
     flex-flow: column;
-    margin: 55px 118px 19px 16px;
   }
 }
 
 @media only screen and (max-width: 570px) {
   .footer {
-    flex-flow: column;
-    margin: 55px 118px 19px 16px;
+    margin: 0px 118px 19px 16px;
   }
 }

@@ -3,15 +3,3 @@
   display: flex;
   justify-content: flex-start;
 }
-
-@media only screen and (max-width: 320px) {
-  .footer__nav {
-    flex-flow: column;
-  }
-}
-
-@media only screen and (max-width: 570px) {
-  .footer__nav {
-    flex-flow: column;
-  }
-}
